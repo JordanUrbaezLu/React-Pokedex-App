@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;  
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+#pokemon-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+#pokemon-card {
+    margin: 20px;
+    width: 245px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 10px solid white;
+}
+
+#pokemon-card:hover {
+    border: 10px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#generation-card {
+    padding: 7px;
+    margin: 7px;
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#generation-card:hover {
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#generation-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+#searchbar-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 20px;
+    padding: 5px;
+    width: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 73, 73);
+}
+
+#gen-name {
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+    color: rgb(247, 73, 73);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin-left:auto;
+    margin-right: auto;
+    width: 420px;
+    border: 3px solid rgb(247, 73, 73);
+}
+
+#type {
+    margin-bottom: 10px;
+}
+
+#pokedex {
+    padding: 10px;
+    position: fixed;
+    left: 70%;
+    top: 300px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border: 5px solid black;
+    background-image: url("https://i.pinimg.com/originals/15/11/39/15113952d52bd1cbb1b7b446baffdbb3.jpg");
+    background-size: 400px 600px;
+}
+
+#pokemonData__container {
+    display: flex;
+
+}
+
+#pokemonInfo-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-left: 20px;
+    width: 50%;
+}
+
+#app-name {
+    position: absolute;
+    left: 10%;
+    top: 4%;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(247, 73, 73);
+}
