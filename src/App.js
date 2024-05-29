@@ -66,7 +66,7 @@ const App = () => {
 
   return (
     <div id="App">
-      <div id="app-name">Pokedex App</div>
+      <div id="app-name">AJ's Pokedex App</div>
       <SearchBar handleSubmit={handleSubmit} />
       <div id="gen-name">{genName}</div>
       <PokemonGenerations
